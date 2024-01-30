@@ -215,9 +215,11 @@ h3 {
   margin-bottom: 10px;
 }
 
-/* Add this media query for screens with a maximum width of 720px */
 @media only screen and (max-width: 720px) {
-  /* Adjustments for the header */
+  footer {
+    text-align: center;
+  }
+
   header {
     height: auto;
     padding: 10px;
@@ -231,35 +233,29 @@ h3 {
     margin: 10px 0;
   }
 
-  /* Adjustments for the navigation */
   nav {
     margin-top: 20px;
   }
 
-  /* Adjustments for the navigation links */
   nav ul {
     flex-direction: column;
     align-items: center;
   }
 
-  /* Adjustments for the navigation links */
   nav ul li {
     padding: 5px 10px;
     margin: 5px 0;
     border-radius: 5px;
   }
 
-  /* Adjustments for the hero section */
   #hero {
     margin-top: 100px;
   }
 
-  /* Adjustments for the form inputs */
   #hero input[type='email'] {
     max-width: 250px;
   }
 
-  /* Adjustments for the features section */
   #features {
     margin: 10px;
   }
@@ -270,7 +266,6 @@ h3 {
     text-align: center;
   }
 
-  /* Adjustments for the product section */
   #pricing {
     flex-direction: column;
     align-items: center;
