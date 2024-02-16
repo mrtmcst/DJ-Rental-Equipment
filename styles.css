@@ -23,14 +23,14 @@ body {
 /* Header Section */
 header {
   position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 100px;
-  padding: 0px 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 100px;
+  padding: 0px 20px;
+  top: 0;
+  right: 0;
+  left: 0;
   background-color: white;
 }
 
@@ -86,7 +86,8 @@ a {
   align-items: center;
   text-align: center;
   height: 200px;
-  margin-top: 150px;
+  padding-top: 200px;
+  padding-bottom: 100px;
 }
 
 h2 {
@@ -136,11 +137,17 @@ input {
 
 /* Features Section */
 #features {
-  margin: 10px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 150px;
 }
 
 .grid {
   display: flex;
+  width: 80%;
 }
 
 #features .icon {
@@ -160,11 +167,14 @@ input {
   width: 90vw;
 }
 
+/* How it Works section */
 #how-it-works {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  margin: 50px;
+  align-items: center;
+  width: 100%;
+  padding-top: 150px;
 }
 
 /* Pricing section */
@@ -173,9 +183,9 @@ input {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  margin-top: 100px;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  width: 100%;
+  padding-top: 150px;
+  margin-bottom: 50px;
 }
 
 .product {
